@@ -23,7 +23,7 @@ export default function Home() {
           <span className="text-zinc-300 text-xs">{siteConfig.name}</span>
         </div>
       </Link>
-      <NotificationManager vapidPublicKey={process.env.VAPID_PUBLIC_KEY} />
+      <NotificationManager vapidPublicKey={process.env.NEXT_PUBLIC_VAPID_KEY} />
     </main>
   );
 }
